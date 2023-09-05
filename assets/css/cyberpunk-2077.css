@@ -1699,3 +1699,119 @@ hr {
   animation-iteration-count: infinite;
   animation-timing-function: linear; 
 }
+
+img.cyberpunk,
+.cyberpunk img {
+  padding: 30px ;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 15px;
+  clip-path: polygon(0px 25px, 26px 0px, calc(60% - 25px) 0px, 60% 25px, 100% 25px, 100% calc(100% - 10px), calc(100% - 15px) calc(100% - 10px), calc(80% - 10px)  calc(100% - 10px), calc(80% - 15px) calc(100% - 0px), 10px  calc(100% - 0px), 0% calc(100% - 10px));
+  background-color: var(--black-color);
+  max-width: calc(100% - 10px);
+}
+
+/* Section */
+section.cyberpunk {
+  background-color: var(--yellow-color);
+  color: var(--black-color);
+  padding: 60px 60px;
+  position: relative;
+  margin-top: -1px;
+  margin-bottom: -1px;
+}
+section.cyberpunk:after,
+section.cyberpunk.black:after {
+  content: " ";
+  display: block;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 30px;
+  background-color: var(--black-color);
+  position: absolute;
+  clip-path: polygon(0% 0%, 22% 0%, calc(22% + 30px) 30px, 52% 30px, calc(52% + 15px) 15px, 70% 15px, calc(70% + 15px) 30px, 90% 30px, calc(90% + 30px) 0px, 100% 0px, 100% 30px, 0px 30px);
+}
+
+section.cyberpunk.both:after,
+section.cyberpunk.both.black:after {
+  height: 100%;
+  clip-path: polygon(
+    0px 30%,
+    30px calc(30% + 30px), 
+    30px calc(100% - 30px), 
+    22% calc(100% - 30px), 
+    calc(22% + 30px) 100%, 
+    52% 100%, calc(52% + 15px) 
+    calc(100% - 15px), 
+    70% calc(100% - 15px), 
+    calc(70% + 15px) 100%, 
+    90% 100%, 
+    calc(90% + 30px) calc(100% - 30px), 
+    100% calc(100% - 30px), 
+    100% 100%, 
+    0px 100%);
+  /*background-color: red;*/
+}
+
+section.cyberpunk.black:after {
+  background-color: var(--yellow-color);
+}
+
+section.cyberpunk.black {
+  background-color: var(--black-color);
+  color: var(--yellow-color);
+}
+
+section.cyberpunk:before,
+section.cyberpunk.black:before {
+  content: " ";
+  display: block;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 30px;
+  background-color: var(--yellow-color);
+  position: absolute;
+  clip-path: polygon(
+    calc(22% + 28px) -1px, 
+    calc(22% + 45px) 15px, 
+    34% 15px, 
+    calc(34% + 15px) -1px, 
+    70% 0px
+  );
+}
+
+section.cyberpunk.both:before,
+section.cyberpunk.both.black:before {
+  height: 100%;
+  clip-path: polygon(
+    calc(22% + 28px) -1px, 
+    calc(22% + 45px) 15px, 
+    34% 15px, 
+    calc(34% + 15px) -1px, 
+    0% 0%, 0% 10%, 
+    30px calc(10% + 30px), 
+    30px 100%, 
+    0% 100%,
+    0% 0%
+  );
+}
+
+/*30px 0px,
+    30px 50%,
+    0px calc(50% + 30px),
+    0px 80%,
+    30px calc(80% + 30px),
+    30px 100%,
+    0% 100%, 0px 30px, 
+    31px 0%*/
+
+section.cyberpunk:before {
+  background-color: var(--black-color);
+}
+
+section.cyberpunk:nth-child(even):after,
+section.cyberpunk:nth-child(odd):before {
+ transform: scaleX(-1);
+}
