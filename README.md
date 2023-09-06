@@ -61,8 +61,8 @@
        <a href="https://vuejs.org/" target="_blank" rel="noreferrer"> 
        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg" alt="vuejs" width="40" height="40"> 
        </a> 
- <a href="[https://vuejs.org/](https://www.python.org/)" target="_blank" rel="noreferrer"> 
-       <img src="[https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png)" alt="vuejs" width="40" height="40"> 
+ <a href="https://www.python.org/" target="_blank" rel="noreferrer"> 
+       <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png" alt="vuejs" width="40" height="40"> 
        </a> 
        </p>
 
