@@ -3,7 +3,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=zhackdtech&amp;label=Profile%20views&amp;color=0e75b6&amp;style=flat" alt="zhackdtech"> </p>
 
-- 🔭 I’m currently working **as Web and Software Developer on SysGo**
+- 🔭 I’m currently working **as Systems Developer on SysGo**
 
 - 🌱 I’m currently learning **Web Development**
 
