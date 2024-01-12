@@ -71,7 +71,7 @@ div.social-container a {
 }
 
 div.social-container a:hover {
-  transform: scale(1.2,1.2);
+  transform: scale(1.2, 1.2);
 }
 
 .my-brand {
@@ -100,5 +100,27 @@ div.social-container a:hover {
 
 .navbar-nav .nav-link.active, .navbar-nav .show > .nav-link, .nav-link:hover {
   color: var(--white, #FFF);
+}
+
+.fit-cover {
+  object-fit: cover;
+}
+
+.my-hero-header {
+  color: var(--white, #FFF);
+  font-family: Fira Code;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.my-hero-sub {
+  color: var(--gray, #ABB2BF);
+  font-family: Fira Code;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
 }
 
